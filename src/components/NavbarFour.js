@@ -96,7 +96,7 @@ const NavbarFour = () => {
                     <Link to='/'>Home 01-Aryan</Link>
                   </li>
                   <li>
-                    <Link to='/index-2'>Home 02</Link>
+                    <Link to='/index-2'>Home 02-aryan</Link>
                   </li>
                   <li>
                     <Link to='/index-3'>Home 03</Link>
