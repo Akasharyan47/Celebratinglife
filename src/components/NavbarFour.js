@@ -93,7 +93,7 @@ const NavbarFour = () => {
                 <a href='#'>Home</a>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/'>Home 01</Link>
+                    <Link to='/'>Home 01-Aryan</Link>
                   </li>
                   <li>
                     <Link to='/index-2'>Home 02</Link>
