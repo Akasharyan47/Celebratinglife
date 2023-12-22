@@ -92,7 +92,7 @@ const NavbarThree = () => {
               <li className='menu-item-has-children'> 
                 <Link to="/" > Home</Link>
                  <ul className='sub-menu'>
-                  <li>
+                  {/* <li>
                     <Link to='/'>Home 01</Link>
                   </li>
                   <li>
@@ -106,7 +106,7 @@ const NavbarThree = () => {
                   </li>
                   <li>
                     <Link to='/index-5'>Home 05</Link>
-                  </li>
+                  </li> */}
                 </ul>  
               </li>
               {/* <li className='menu-item-has-children'>
