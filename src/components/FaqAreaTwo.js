@@ -27,7 +27,7 @@ const FaqAreaTwo = () => {
                   channel='youtube'
                   autoplay
                   isOpen={isOpen}
-                  videoId='XM6kTQPzzpQ'
+                  videoId='fLN5hJlfUXE'
                   onClose={() => setOpen(false)}
                 />
               </div>

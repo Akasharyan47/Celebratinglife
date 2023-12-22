@@ -31,7 +31,7 @@ const ProjectAreaOne = () => {
               aria-controls='nav-tabs1'
               aria-selected='true'
             >
-              View All
+              Resent
             </button>
             <button
               className='nav-link'
@@ -43,7 +43,7 @@ const ProjectAreaOne = () => {
               aria-controls='nav-tabs2'
               aria-selected='false'
             >
-              Softwate
+              Top
             </button>
             <button
               className='nav-link'
@@ -55,7 +55,7 @@ const ProjectAreaOne = () => {
               aria-controls='nav-tabs3'
               aria-selected='false'
             >
-              New Project
+              Featured
             </button>
             <button
               className='nav-link'
@@ -67,20 +67,9 @@ const ProjectAreaOne = () => {
               aria-controls='nav-tabs4'
               aria-selected='false'
             >
-              Digitals
+              Top
             </button>
-            <button
-              className='nav-link'
-              id='nav-tabs5-tab'
-              data-bs-toggle='tab'
-              data-bs-target='#nav-tabs5'
-              type='button'
-              role='tab'
-              aria-controls='nav-tabs5'
-              aria-selected='false'
-            >
-              Hardware
-            </button>
+ 
           </div>
         </nav>
         <div className='tab-content' id='nav-tabContent'>
@@ -496,109 +485,7 @@ const ProjectAreaOne = () => {
               </div>
             </div>
           </div>
-          <div
-            className='tab-pane fade'
-            id='nav-tabs5'
-            role='tabpanel'
-            aria-labelledby='nav-tabs5-tab'
-          >
-            <div className='row'>
-              <div className='col-md-4'>
-                <div className='single-project-inner'>
-                  <img src='assets/img/gallery/1.png' alt='img' />
-                  <div className='details'>
-                    <span>
-                      <FaPlus />
-                    </span>
-                    <a className='read-more-text' href='#'>
-                      MORE PROJECT
-                    </a>
-                  </div>
-                </div>
-                <div className='single-project-inner'>
-                  <img src='assets/img/gallery/5.png' alt='img' />
-                  <div className='details'>
-                    <span>
-                      <FaPlus />
-                    </span>
-                    <a className='read-more-text' href='#'>
-                      MORE PROJECT
-                    </a>
-                  </div>
-                </div>
-                <div className='single-project-inner'>
-                  <img src='assets/img/gallery/6.png' alt='img' />
-                  <div className='details'>
-                    <span>
-                      <FaPlus />
-                    </span>
-                    <a className='read-more-text' href='#'>
-                      MORE PROJECT
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className='col-md-4'>
-                <div className='single-project-inner'>
-                  <img src='assets/img/gallery/2.png' alt='img' />
-                  <div className='details'>
-                    <span>
-                      <FaPlus />
-                    </span>
-                    <a className='read-more-text' href='#'>
-                      MORE PROJECT
-                    </a>
-                  </div>
-                </div>
-                <div className='single-project-inner'>
-                  <img src='assets/img/gallery/7.png' alt='img' />
-                  <div className='details'>
-                    <span>
-                      <FaPlus />
-                    </span>
-                    <a className='read-more-text' href='#'>
-                      MORE PROJECT
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className='col-md-4'>
-                <div className='single-project-inner'>
-                  <img src='assets/img/gallery/3.png' alt='img' />
-                  <div className='details'>
-                    <span>
-                      <FaPlus />
-                    </span>
-                    <a className='read-more-text' href='#'>
-                      MORE PROJECT
-                    </a>
-                  </div>
-                </div>
-                <div className='single-project-inner'>
-                  <img src='assets/img/gallery/4.png' alt='img' />
-                  <div className='details'>
-                    <span>
-                      <FaPlus />
-                    </span>
-                    <a className='read-more-text' href='#'>
-                      MORE PROJECT
-                    </a>
-                  </div>
-                </div>
-                <div className='single-project-inner'>
-                  <img src='assets/img/gallery/8.png' alt='img' />
-                  <div className='details'>
-                    <span>
-                      <FaPlus />
-                    </span>
-                    <a className='read-more-text' href='#'>
-                      MORE PROJECT
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+  
         </div>
       </div>
     </div>
