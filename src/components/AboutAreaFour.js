@@ -39,7 +39,7 @@ const AboutAreaFour = () => {
                   Innovation
                 </h2>
                 <p className='content mb-4 mb-xl-5'>
-                  Lorem Ipsum is simply dummy text of the printing and
+                  git 
                   typesetting industry Loreaim Ipsum has been the industry's
                   standard dummy
                 </p>

@@ -29,7 +29,7 @@ const HomeFour = () => {
       {/* Service Area four */}
       <ServiceAreaFour />
 
-       git
+       
       <FaqAreaTwo />
 
       {/* Team Area Two */}
