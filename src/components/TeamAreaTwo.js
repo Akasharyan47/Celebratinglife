@@ -1,7 +1,6 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
-import { Link } from "react-router-dom";
-
+import { Link } from "react-router-dom"; 
 const TeamAreaTwo = () => {
   return (
     <>
@@ -16,6 +15,9 @@ const TeamAreaTwo = () => {
             <h2 className='title text-white'>
               Your Partner In <span>Digital</span> Success
             </h2>
+          </div>
+          <div className="row">
+     
           </div>
           <div className='row'>
             <div className='col-lg-4 col-md-6'>
@@ -114,7 +116,7 @@ const TeamAreaTwo = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>  
         </div>
       </div>
 
