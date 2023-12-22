@@ -29,7 +29,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path='/' element={<HomeOne />} />
+        <Route exact path='/' element={<HomeFour />} />
         <Route exact path='/index-2' element={<HomeTwo />} />
         <Route exact path='/index-3' element={<HomeThree />} />
         <Route exact path='/index-4' element={<HomeFour />} />

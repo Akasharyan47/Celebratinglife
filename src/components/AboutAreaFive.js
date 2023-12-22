@@ -3,10 +3,10 @@ import { FaArrowRight, FaCheckCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const AboutAreaFive = () => {
-  return (
+  return ( 
     <>
       {/* =============== About Area Five End ===============*/}
-      <div className='about-area pd-top-120 pd-bottom-120'>
+      <div className='about-area pd-top-120 pd-bottom-120' >
         <div className='container'>
           <div className='row'>
             <div
@@ -37,34 +37,29 @@ const AboutAreaFive = () => {
               <div className='section-title mb-0 ps-xl-5'>
                 <h6 className='sub-title-sky-blue'>ABOUT COMPANY</h6>
                 <h2 className='title'>
-                  Experience intelligence like never before
+                Discover a Path to Health and Prosperity at Modicare
                 </h2>
                 <p className='content mb-4'>
-                  You can access SaaS applications through a web browser or
-                  mobile app, as long as you have an internet connection.
+                "Embark on a Journey to Well-Being and Success with Modicare – Your Gateway to Wellness and Prosperity!"
                 </p>
                 <div className='row'>
                   <div className='col-md-6'>
                     <ul className='single-list-inner style-check style-heading style-check mb-3'>
                       <li>
-                        <FaCheckCircle className='sky' /> Mistakes To Avoid to
-                        the
+                        <FaCheckCircle className='sky' /> Holistic Well-Being
                       </li>
                       <li>
-                        <FaCheckCircle className='sky' /> Your Startup industry
-                        stan
+                        <FaCheckCircle className='sky' /> Quality Healthcare Products
                       </li>
                     </ul>
                   </div>
                   <div className='col-md-6'>
                     <ul className='single-list-inner style-check style-heading style-check mb-3'>
                       <li>
-                        <FaCheckCircle className='sky' /> Mistakes To Avoid to
-                        the
+                        <FaCheckCircle className='sky' /> Empowering Entrepreneurs
                       </li>
                       <li>
-                        <FaCheckCircle className='sky' /> Your Startup industry
-                        stan
+                        <FaCheckCircle className='sky' /> Customer-Centric Approach
                       </li>
                     </ul>
                   </div>

@@ -6,14 +6,14 @@ const FaqAreaTwo = () => {
   return (
     <>
       {/*==================== Faq area start ====================*/}
-      <div className='faq-area pd-bottom-120'>
+      <div className='faq-area pd-bottom-120' style={{backgroundColor:"#F5F6F7"}}>
         <div className='container'>
           <div className='row pd-top-120'>
-            <div className='col-xl-7 col-lg-6 col-md-8 order-lg-last'>
-              <div className='about-thumb-inner video-thumb'>
+            <div className='col-xl-7 col-lg-6 col-md-8 order-lg-last ' >
+              <div className='about-thumb-inner video-thumb d-flex flex-row-reverse'>
                 <img
-                  className='main-img'
-                  src='assets/img/about/15.png'
+                  className='main-img w-75'
+                  src='assets/img/about/12.png'
                   alt='img'
                 />
                 <span
@@ -43,35 +43,35 @@ const FaqAreaTwo = () => {
                 className='accordion accordion-inner style-2 accordion-icon-left mt-3'
                 id='accordionExample'
               >
-                <div className='accordion-item'>
+
+                  <div className='accordion-item'>
                   <h2 className='accordion-header' id='headingOne'>
-                    <button
-                      className='accordion-button'
+                  <button
+                      className='accordion-button collapsed'
                       type='button'
                       data-bs-toggle='collapse'
                       data-bs-target='#collapseOne'
-                      aria-expanded='true'
+                      aria-expanded='false'
                       aria-controls='collapseOne'
                     >
-                      What services do you offer?
+                     What does Modicare sell?
                     </button>
                   </h2>
                   <div
                     id='collapseOne'
-                    className='accordion-collapse collapse show'
+                    className='accordion-collapse collapse '
                     aria-labelledby='headingOne'
                     data-bs-parent='#accordionExample'
                   >
                     <div className='accordion-body'>
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                    We have more than 300 Products in 12 Categories viz. Nutrition, Health & Wellness, Colour Cosmetics, Home care, Laundry Care, Personal care, Skin Care, Food & Beverages, Agriculture, Baby Care, Auto Care, Imitated Jewellery, Literature, Apparels etc.
                     </div>
                   </div>
                 </div>
+
                 <div className='accordion-item'>
                   <h2 className='accordion-header' id='headingTwo'>
-                    <button
+                  <button
                       className='accordion-button collapsed'
                       type='button'
                       data-bs-toggle='collapse'
@@ -79,22 +79,21 @@ const FaqAreaTwo = () => {
                       aria-expanded='false'
                       aria-controls='collapseTwo'
                     >
-                      How experienced is your team?
+                     How does a person become a Modicare Direct Seller? 
                     </button>
                   </h2>
                   <div
                     id='collapseTwo'
-                    className='accordion-collapse collapse'
+                    className='accordion-collapse collapse  '
                     aria-labelledby='headingTwo'
                     data-bs-parent='#accordionExample'
                   >
                     <div className='accordion-body'>
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                    To become a Modicare Direct Seller, a person must be sponsored by an active Modicare Direct Seller into the Modicare business. The sponsoring Modicare Direct Seller is responsible for guiding the new Modicare Direct Seller about the business.
                     </div>
                   </div>
                 </div>
+
                 <div className='accordion-item'>
                   <h2 className='accordion-header' id='headingThree'>
                     <button
@@ -105,7 +104,7 @@ const FaqAreaTwo = () => {
                       aria-expanded='false'
                       aria-controls='collapseThree'
                     >
-                      Can you provide of past projects?
+                      How can i buy Modicare products?
                     </button>
                   </h2>
                   <div
@@ -115,9 +114,56 @@ const FaqAreaTwo = () => {
                     data-bs-parent='#accordionExample'
                   >
                     <div className='accordion-body'>
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                    Modicare products are sold by Modicare Authorized Direct sellers only. You can also leave your interest on our website and our team will connect with you shortly and help you with your query.
+                    </div>
+                  </div>
+                </div>  
+
+                <div className='accordion-item'>
+                  <h2 className='accordion-header' id='headingFour'>
+                    <button
+                      className='accordion-button collapsed'
+                      type='button'
+                      data-bs-toggle='collapse'
+                      data-bs-target='#collapseFour'
+                      aria-expanded='false'
+                      aria-controls='collapseFour'
+                    >
+                     How do i make mony with Modicare?
+                    </button>
+                  </h2>
+                  <div
+                    id='collapseFour'
+                    className='accordion-collapse collapse'
+                    aria-labelledby='headingFour'
+                    data-bs-parent='#accordionExample'
+                  >
+                    <div className='accordion-body'>
+                    Modicare Consultants make money when their customers buy Modicare Products from them and when others in their Modicare network sell products to their customers and/or self-consume the products. To know about Modicare'’s Sales plan, please click here. Bonuses earned by Modicare Consultants vary widely and are dependent on product sales, which usually reflects how much time and effort they consistently put into the Modicare Business. Modicare will never pay commissions in respect of joining fees.
+                    </div>
+                  </div>
+                </div>
+                <div className='accordion-item'>
+                  <h2 className='accordion-header' id='headingFive'>
+                    <button
+                      className='accordion-button collapsed'
+                      type='button'
+                      data-bs-toggle='collapse'
+                      data-bs-target='#collapseFive'
+                      aria-expanded='false'
+                      aria-controls='collapseFive'
+                    >
+                     How can i buy Modicare Products?
+                    </button>
+                  </h2>
+                  <div
+                    id='collapseFive'
+                    className='accordion-collapse collapse'
+                    aria-labelledby='headingFive'
+                    data-bs-parent='#accordionExample'
+                  >
+                    <div className='accordion-body'>
+                    Modicare products are sold by Modicare Authorized Direct sellers only. You can also leave your interest on our website and our team will connect with you shortly and help you with your query.
                     </div>
                   </div>
                 </div>

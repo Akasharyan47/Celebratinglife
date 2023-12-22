@@ -90,8 +90,9 @@ const NavbarFour = () => {
           >
             <ul className='navbar-nav menu-open text-lg-center ps-lg-5 navbarFive'>
               <li className='menu-item-has-children'>
-                <a href='#'>Home</a>
-                <ul className='sub-menu'>
+              <Link to='/index-4'>Home4</Link>
+                {/* <a href='#'>Home</a> */}
+                {/* <ul className='sub-menu'>
                   <li>
                     <Link to='/'>Home 01-Aryan</Link>
                   </li>
@@ -99,7 +100,7 @@ const NavbarFour = () => {
                     <Link to='/index-2'>Home 02-aryan</Link>
                   </li>
                   <li>
-                    <Link to='/index-3'>Home 03 Saifalam</Link>
+                    <Link to='/index-3'>Home 03</Link>
                   </li>
                   <li>
                     <Link to='/index-4'>Home 04</Link>
@@ -107,7 +108,7 @@ const NavbarFour = () => {
                   <li>
                     <Link to='/index-5'>Home 05</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className='menu-item-has-children'>
                 <a href='#'>Service</a>

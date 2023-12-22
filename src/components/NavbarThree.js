@@ -52,7 +52,7 @@ const NavbarThree = () => {
         id='body-overlay'
       ></div>
       {/* ==================== Navbar Two Start ====================*/}
-      <nav className='navbar navbar-area navbar-area-2 navbar-expand-lg bg-white'>
+      <nav className='navbar navbar-area navbar-area-2 navbar-expand-lg '>
         <div className='container nav-container custom-container'>
           <div className='responsive-mobile-menu'>
             <button
@@ -70,9 +70,9 @@ const NavbarThree = () => {
               <span className='icon-right' />
             </button>
           </div>
-          <div className='logo'>
+          <div className='logo  '>
             <Link to='/'>
-              <img src='assets/img/logo.png' alt='img' />
+               <h3 className="text-white ">Celebratinglife</h3>
             </Link>
           </div>
           <div className='nav-right-part nav-right-part-mobile'>
@@ -89,9 +89,9 @@ const NavbarThree = () => {
             id='itech_main_menu'
           >
             <ul className='navbar-nav menu-open text-lg-end'>
-              <li className='menu-item-has-children'>
-                <a href='#'>Home</a>
-                <ul className='sub-menu'>
+              <li className='menu-item-has-children'> 
+                <Link to="/" > Home</Link>
+                 <ul className='sub-menu'>
                   <li>
                     <Link to='/'>Home 01</Link>
                   </li>
@@ -107,9 +107,9 @@ const NavbarThree = () => {
                   <li>
                     <Link to='/index-5'>Home 05</Link>
                   </li>
-                </ul>
+                </ul>  
               </li>
-              <li className='menu-item-has-children'>
+              {/* <li className='menu-item-has-children'>
                 <a href='#'>Service</a>
                 <ul className='sub-menu'>
                   <li>
@@ -119,10 +119,11 @@ const NavbarThree = () => {
                     <Link to='/service-details'>Service Single</Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className='menu-item-has-children'>
-                <a href='#'>Pages</a>
-                <ul className='sub-menu'>
+                {/* <a href='#'>Pages</a> */}
+                <Link to=' '>Teams</Link>
+                {/* <ul className='sub-menu'>
                   <li>
                     <Link to='/about'>About Us</Link>
                   </li>
@@ -135,33 +136,33 @@ const NavbarThree = () => {
                   <li>
                     <Link to='/case-study-details'>Case Study Details</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Blog</a>
-                <ul className='sub-menu'>
+              <Link to=' '>Blog</Link>
+                {/* <ul className='sub-menu'>
                   <li>
                     <Link to='/blog'>Blog</Link>
                   </li>
                   <li>
                     <Link to='/blog-details'>Blog Details</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
-                <Link to='/contact'>Contact Us</Link>
+                <Link to=' '>Contact Us</Link>
               </li>
             </ul>
           </div>
-          <div className='nav-right-part nav-right-part-desktop d-lg-inline-flex align-item-center'>
-            <a className='navbar-phone d-xl-inline-block d-none' href='tel:'>
+          <div className='nav-right-part  nav-right-part-desktop  d-lg-inline-flex align-item-center'>
+             {/*<a className='navbar-phone d-xl-inline-block d-none' href='tel:'>
               <span className='icon'>
                 <img src='assets/img/icon/1.png' alt='img' />
-              </span>
-              <span>Need help?</span>
-              <h5>(808) 555-0111</h5>
-            </a>
-            <Link className='btn btn-border-base' to='/about'>
+              </span>  
+              {/* <span>Need help?</span>
+              <h5>(808) 555-0111</h5> 
+            </a>*/}
+            <Link className='btn btn-border-base' to=' '>
               Discover More <FaPlus />
             </Link>
           </div>

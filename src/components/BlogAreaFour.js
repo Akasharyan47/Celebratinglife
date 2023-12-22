@@ -32,11 +32,11 @@ const BlogAreaFour = () => {
                   <p className='cat'>NEWS</p>
                   <p className='date'>11 january,2023</p>
                   <h5 className='mb-3'>
-                    <Link to='/blog-details'>
+                    <Link to=' '>
                       Transforming businesses, one pixel at a time
                     </Link>
                   </h5>
-                  <Link className='read-more-text' to='/blog-details'>
+                  <Link className='read-more-text' to=' '>
                     Read More <FaArrowRight />
                   </Link>
                 </div>
@@ -55,11 +55,11 @@ const BlogAreaFour = () => {
                   <p className='cat'>NEWS</p>
                   <p className='date'>11 january,2023</p>
                   <h5 className='mb-3'>
-                    <Link to='/blog-details'>
+                    <Link to=' '>
                       The Importance of a Strong Digital for Strategy
                     </Link>
                   </h5>
-                  <Link className='read-more-text' to='/blog-details'>
+                  <Link className='read-more-text' to=' '>
                     Read More <FaArrowRight />
                   </Link>
                 </div>
@@ -78,11 +78,11 @@ const BlogAreaFour = () => {
                   <p className='cat'>NEWS</p>
                   <p className='date'>11 january,2023</p>
                   <h5 className='mb-3'>
-                    <Link to='/blog-details'>
+                    <Link to=' '>
                       Creating Engaging Content: A Guide for Digital
                     </Link>
                   </h5>
-                  <Link className='read-more-text' to='/blog-details'>
+                  <Link className='read-more-text' to=' '>
                     Read More <FaArrowRight />
                   </Link>
                 </div>

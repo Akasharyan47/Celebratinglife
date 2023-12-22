@@ -91,8 +91,9 @@ const NavBar = () => {
           >
             <ul className='navbar-nav menu-open text-lg-end'>
               <li className='menu-item-has-children'>
-                <a href='#'>Home</a>
-                <ul className='sub-menu'>
+                {/* <a href='#'>Home</a> */}
+                <Link to='/'>Home</Link>
+                {/* <ul className='sub-menu'>
                   <li>
                     <Link to='/'>Home 01</Link>
                   </li>
@@ -108,7 +109,7 @@ const NavBar = () => {
                   <li>
                     <Link to='/index-5'>Home 05</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className='menu-item-has-children'>
                 <a href='#'>Service</a>
