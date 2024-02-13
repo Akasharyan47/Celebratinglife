@@ -1,8 +1,6 @@
-import React from "react";
-import AboutAreaFour from "../components/AboutAreaFour";
+import React from "react"; 
 import BannerFour from "../components/BannerFour";
-import AboutAreaFive from "../components/AboutAreaFive";
-import BlogAreaFour from "../components/BlogAreaFour";
+import AboutAreaFive from "../components/AboutAreaFive"; 
 import BrandAreaOne from "../components/BrandAreaOne";
 import CareerAreaOne from "../components/CareerAreaOne";
 import ContactAreaFour from "../components/ContactAreaFour";
@@ -10,8 +8,7 @@ import CounterAreaFour from "../components/CounterAreaFour";
 import FaqAreaTwo from "../components/FaqAreaTwo";
 import FooterThree from "../components/FooterThree";
 import NavbarThree from "../components/NavbarThree";
-import ProjectAreaOne from "../components/ProjectAreaOne";
-import ServiceAreaFour from "../components/ServiceAreaFour";
+import ProjectAreaOne from "../components/ProjectAreaOne"; 
 import TeamAreaTwo from "../components/TeamAreaTwo";
 import TestimonialThree from "../components/TestimonialThree"; 
 

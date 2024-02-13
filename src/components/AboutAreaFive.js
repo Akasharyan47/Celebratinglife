@@ -8,19 +8,19 @@ const AboutAreaFive = () => {
       {/* =============== About Area Five End ===============*/}
       <div className='about-area pd-top-120 pd-bottom-120' >
         <div className='container'>
-          <div className='row'>
+          <div className='row '>
             <div
-              className='col-lg-6 mb-4 mb-lg-0'
+              className='col-lg-6 mb-4 mb-lg-0 '
               data-aos='fade-right'
               data-aos-delay='200'
               data-aos-duration='1500'
             >
-              <div className='about-thumb-inner'>
-                <img
+              <div className='about-thumb-inner w-75 '>
+                {/* <img
                   className='animate-img-3 z-index-2 top_image_bounce'
                   src='assets/img/about/20.png'
                   alt='img'
-                />
+                /> */}
                 <img
                   className='main-img'
                   src='assets/img/about/21.png'
@@ -35,18 +35,18 @@ const AboutAreaFive = () => {
               data-aos-duration='1500'
             >
               <div className='section-title mb-0 ps-xl-5'>
-                <h6 className='sub-title-sky-blue'>ABOUT COMPANY</h6>
+                {/* <h6 className='sub-title-sky-blue'>ABOUT COMPANY</h6> */}
                 <h2 className='title'>
                 Discover a Path to Health and Prosperity at Modicare
                 </h2>
-                <p className='content mb-4'>
+                <p className='content mb-4 '>
                 "Embark on a Journey to Well-Being and Success with Modicare – Your Gateway to Wellness and Prosperity!"
                 </p>
                 <div className='row'>
                   <div className='col-md-6'>
                     <ul className='single-list-inner style-check style-heading style-check mb-3'>
                       <li>
-                        <FaCheckCircle className='sky' /> Holistic Well-Being
+                        <FaCheckCircle className='sky ' /> Holistic Well-Being
                       </li>
                       <li>
                         <FaCheckCircle className='sky' /> Quality Healthcare Products

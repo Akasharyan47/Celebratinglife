@@ -8,14 +8,14 @@ const FaqAreaTwo = () => {
       {/*==================== Faq area start ====================*/}
       <div className='faq-area pd-bottom-120' style={{backgroundColor:"#F5F6F7"}}>
         <div className='container'>
-          <div className='row pd-top-120'>
-            <div className='col-xl-7 col-lg-6 col-md-8 order-lg-last ' >
-              <div className='about-thumb-inner video-thumb d-flex flex-row-reverse'>
-                <img
-                  className='main-img w-75'
-                  src='assets/img/about/12.png'
+          <div className='row'>
+            <div className='col-lg-5  col-md-6 order-lg-last' >
+              <div className='about-thumb-inner video-thumb  d-flex flex-row-reverse h-100 w-100 align-items-center'>
+                 <img
+                  className=' h-75'
+                  src='assets/img/about/FQpic.png'
                   alt='img'
-                />
+                />  
                 <span
                   onClick={() => setOpen(true)}
                   className='video-play-btn-hover'
@@ -32,7 +32,8 @@ const FaqAreaTwo = () => {
                 />
               </div>
             </div>
-            <div className='col-xl-5 col-lg-6 align-self-center'>
+            
+            <div className='col-lg-6 align-self-center'>
               <div className='section-title mb-0 mt-4 mt-lg-0'>
                 <h6 className='sub-title'>YOUR ANSWER</h6>
                 <h2 className='title'>
@@ -45,7 +46,7 @@ const FaqAreaTwo = () => {
               >
 
                   <div className='accordion-item'>
-                  <h2 className='accordion-header' id='headingOne'>
+                  <h2 className='' id='headingOne'>
                   <button
                       className='accordion-button collapsed'
                       type='button'
@@ -169,6 +170,7 @@ const FaqAreaTwo = () => {
                 </div>
               </div>
             </div>
+            <div className='col-lg-1'></div>
           </div>
         </div>
       </div>

@@ -774,7 +774,10 @@ max-width: max-content;
   }
   &.style-check {
     li {
+     
       list-style: none;
+      font-size: 0.9rem; 
+
       svg,
       i {
         margin-right: 10px;
@@ -783,6 +786,7 @@ max-width: max-content;
       }
       .sky {
         color: #50af9b;
+        
       }
     }
   }
