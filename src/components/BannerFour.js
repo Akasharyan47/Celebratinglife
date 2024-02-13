@@ -4,14 +4,13 @@ import { Link } from "react-router-dom";
 
 const BannerFour = () => {
   return (
-    <>
-      {/* ================== BannerFour Start ==================*/}
+    <> 
       <div className='banner-area bg-relative banner-area-3'>
-        <div className='container custom-container'>
+        <div className='container-fluid  '>
           <div className='bg-gray'>
             <img
-              className='img-right'
-              src='assets/img/banner-4/1.png'
+              className='img-right img-fluid'
+              src='assets/img/banner-4/Preeti_jog.jpg'
               alt='img'
             />
             <div className='container'>
@@ -23,9 +22,8 @@ const BannerFour = () => {
                       data-aos='fade-right'
                       data-aos-delay='100'
                       data-aos-duration='1500'
-                    >
-                      
-                      INDIA'S ONE STOP SHOP
+                    > 
+                      INDIA'S LEADING DIRECT SELLING COMPANIES
                     </h6>
                     <h2
                       className='title '
@@ -33,7 +31,7 @@ const BannerFour = () => {
                       data-aos-delay='250'
                       data-aos-duration='1500'
                     >
-                      Innovative Solutions For A <span>Digital</span> World
+                     Welcome to the world<span>financial</span> freedom
                     </h2>
                     <Link
                       className='mt-3 btn btn-border-base'
@@ -42,7 +40,7 @@ const BannerFour = () => {
                       data-aos-duration='1500'
                       to=' '
                     >
-                      Discover More <FaPlus />
+                      Register <FaPlus />
                     </Link>
                   </div>
                 </div>

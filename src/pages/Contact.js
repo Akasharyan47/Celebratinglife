@@ -2,7 +2,7 @@ import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import ContactMain from "../components/ContactMain";
 import FooterOne from "../components/FooterOne";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavbarThree";
 
 const Contact = () => {
   return (

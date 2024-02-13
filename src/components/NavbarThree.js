@@ -28,7 +28,7 @@ const NavbarThree = () => {
   return (
     <>
       {/* search popup start*/}
-      <div
+      {/* <div
         className={searchShow ? "td-search-popup active" : "td-search-popup "}
         id='td-search-popup'
       >
@@ -44,16 +44,16 @@ const NavbarThree = () => {
             <FaSearch />
           </button>
         </form>
-      </div>
+      </div> */}
       {/* search popup end*/}
-      <div
+      {/* <div
         onClick={searchActive}
         className={searchShow ? "body-overlay active" : "body-overlay"}
         id='body-overlay'
-      ></div>
+      ></div> */}
       {/* ==================== Navbar Two Start ====================*/}
       <nav className='navbar navbar-area navbar-area-2 navbar-expand-lg '>
-        <div className='container nav-container custom-container'>
+        <div className='container-fluid nav-container  '>
           <div className='responsive-mobile-menu'>
             <button
               onClick={menuActive}
@@ -70,9 +70,14 @@ const NavbarThree = () => {
               <span className='icon-right' />
             </button>
           </div>
-          <div className='logo  '>
+          <div className='logo '>
             <Link to='/'>
-               <h3 className="text-white ">Celebratinglife</h3>
+            <img
+              className='img-right'
+              src='assets/img/header_Logo.jpg'
+              alt='img'
+            />
+               
             </Link>
           </div>
           <div className='nav-right-part nav-right-part-mobile'>
@@ -122,8 +127,8 @@ const NavbarThree = () => {
               </li> */}
               <li className='menu-item-has-children'>
                 {/* <a href='#'>Pages</a> */}
-                <Link to=' '>Join Us</Link>
-                {/* <ul className='sub-menu'>
+                <Link to=' '>Philosophy</Link>
+                <ul className='sub-menu'>
                   <li>
                     <Link to='/about'>About Us</Link>
                   </li>
@@ -136,21 +141,19 @@ const NavbarThree = () => {
                   <li>
                     <Link to='/case-study-details'>Case Study Details</Link>
                   </li>
-                </ul> */}
+                </ul>
               </li>
               <li className='menu-item-has-children'>
-              <Link to=' '>Blog</Link>
-                {/* <ul className='sub-menu'>
-                  <li>
-                    <Link to='/blog'>Blog</Link>
-                  </li>
-                  <li>
-                    <Link to='/blog-details'>Blog Details</Link>
-                  </li>
-                </ul> */}
+              <Link to=' '>plan</Link>
+                 
               </li>
               <li>
-                <Link to=' '>About Us</Link>
+                <Link to=' '>products</Link>
+              </li>
+               
+              <li className='menu-item-has-children'>
+              <Link to=' '>Help</Link>
+                 
               </li>
             </ul>
           </div>
@@ -162,8 +165,8 @@ const NavbarThree = () => {
               {/* <span>Need help?</span>
               <h5>(808) 555-0111</h5> 
             </a>*/}
-            <Link className='btn btn-border-base' to=' '>
-              Discover More <FaPlus />
+            <Link className='btn btn-border-base  ' to=' '>
+               Register <FaPlus  />
             </Link>
           </div>
         </div>

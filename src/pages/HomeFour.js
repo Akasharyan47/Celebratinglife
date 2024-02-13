@@ -13,8 +13,7 @@ import NavbarThree from "../components/NavbarThree";
 import ProjectAreaOne from "../components/ProjectAreaOne";
 import ServiceAreaFour from "../components/ServiceAreaFour";
 import TeamAreaTwo from "../components/TeamAreaTwo";
-import TestimonialThree from "../components/TestimonialThree";
-import NavbarFour from "../components/NavbarFour";
+import TestimonialThree from "../components/TestimonialThree"; 
 
 const HomeFour = () => {
   return (

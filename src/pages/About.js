@@ -5,7 +5,7 @@ import ContactAreaOne from "../components/ContactAreaOne";
 import CounterAreaOne from "../components/CounterAreaOne";
 import FaqAreaOne from "../components/FaqAreaOne";
 import FooterOne from "../components/FooterOne";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavbarThree";
 import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
 

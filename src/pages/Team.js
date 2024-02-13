@@ -1,7 +1,7 @@
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavbarThree";
 import TeamAreaGroup from "../components/TeamAreaGroup";
 
 const Team = () => {
