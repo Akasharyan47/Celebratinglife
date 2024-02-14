@@ -130,19 +130,24 @@ const NavbarThree = () => {
                 <Link to=' '>Philosophy</Link>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/about'>About Us</Link>
+                    <Link to=''>Philosophy 1</Link>
+                    {/* <Link to='/about'>About Us</Link> */}
                   </li>
                   <li>
-                    <Link to='/team'>Team</Link>
+                    <Link to=''>Philosophy 2</Link>
+                    {/* <Link to='/team'>Team</Link> */}
                   </li>
                   <li>
-                    <Link to='/team-details'>Team Details</Link>
+                    <Link to=''> Philosophy 3</Link>
+                    {/* <Link to='/team-details'>Team Details</Link> */}
                   </li>
                   <li>
-                    <Link to='/case-study-details'>Case Study Details</Link>
+                    {/* <Link to='/case-study-details'>Case Study Details</Link> */}
                   </li>
                 </ul>
               </li>
+
+              
               <li className='menu-item-has-children'>
               <Link to=' '>plan</Link>
                  

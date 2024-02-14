@@ -18,7 +18,7 @@ const FooterThree = () => {
             <div className='col-xl-3 col-lg-4 col-md-6'>
               <div className='widget widget_about'>
                 <div className='thumb'>
-                  <img src='assets/img/logo2.png' alt='img' />
+                  {/* <img src='assets/img/logo2.png' alt='img' /> */}
                 </div>
                 <div className='details'>
                   <p>
@@ -60,17 +60,17 @@ const FooterThree = () => {
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaChevronRight /> Video Editing
+                      <FaChevronRight /> Our Story
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaChevronRight /> Pc Repairs{" "}
+                      <FaChevronRight /> The Visionary
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaChevronRight /> Web Development
+                      <FaChevronRight /> Modi Enterprise
                     </Link>
                   </li>
                 </ul>
@@ -101,7 +101,8 @@ const FooterThree = () => {
                 <p>© Yoursitename 2023 | All Rights Reserved</p>
               </div>
               <div className='col-md-6 text-lg-end'>
-                <a href='#'>Trams &amp; Condition</a>
+                <a href='#'>
+Terms & Conditions</a>
                 <a href='#'>Privacy Policy</a>
                 <a href='#'>Contact Us</a>
               </div>

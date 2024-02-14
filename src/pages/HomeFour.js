@@ -32,7 +32,7 @@ const HomeFour = () => {
       <TeamAreaTwo />
 
       {/* Career Area One */}
-      <CareerAreaOne />
+      {/* <CareerAreaOne /> */}
 
       {/* Project Area One */}
       <ProjectAreaOne />
