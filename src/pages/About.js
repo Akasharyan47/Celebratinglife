@@ -5,7 +5,7 @@ import CounterAreaOne from "../components/CounterAreaOne";
 import FaqAreaOne from "../components/FaqAreaTwo";
 import FooterOne from "../components/FooterOne";
 import NavBar from "../components/NavbarThree";
-import TeamAreaOne from "../components/TeamAreaOne";
+import TeamAreaOne from "../components/TeamAreaTwo";
 import WorkProcessOne from "../components/WorkProcessOne";
 
 const About = () => {

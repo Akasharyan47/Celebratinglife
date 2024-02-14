@@ -1,8 +1,7 @@
 import React, { Fragment } from "react"; 
 import BannerFour from "../components/BannerFour";
 import AboutAreaFive from "../components/AboutAreaFive"; 
-import BrandAreaOne from "../components/BrandAreaOne";
-import CareerAreaOne from "../components/CareerAreaOne";
+import BrandAreaOne from "../components/BrandAreaOne"; 
 import ContactAreaFour from "../components/ContactAreaFour";
 import CounterAreaFour from "../components/CounterAreaFour";
 import FaqAreaTwo from "../components/FaqAreaTwo";
@@ -20,7 +19,8 @@ const HomeFour = () => {
      
 
       {/* Banner Four */}
-       <BannerFour />
+    
+      <BannerFour />
 
      
       <AboutAreaFive /> 
@@ -28,14 +28,15 @@ const HomeFour = () => {
  
       <FaqAreaTwo />
 
-      {/* Team Area Two */}
-      <TeamAreaTwo />
+   
 
       {/* Career Area One */}
       {/* <CareerAreaOne /> */}
 
       {/* Project Area One */}
       <ProjectAreaOne />
+         {/* Team Area Two */}
+         <TeamAreaTwo />
 
       {/* Contact Area Four */}
       <ContactAreaFour />

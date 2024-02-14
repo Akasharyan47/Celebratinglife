@@ -74,7 +74,7 @@ const NavbarThree = () => {
             <Link to='/'>
             <img
               className='img-right'
-              src='assets/img/header_Logo.jpg'
+              src='assets/img/headerLogo.png'
               alt='img'
             />
                
