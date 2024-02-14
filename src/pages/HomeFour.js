@@ -1,4 +1,4 @@
-import React from "react"; 
+import React, { Fragment } from "react"; 
 import BannerFour from "../components/BannerFour";
 import AboutAreaFive from "../components/AboutAreaFive"; 
 import BrandAreaOne from "../components/BrandAreaOne";
@@ -20,7 +20,7 @@ const HomeFour = () => {
      
 
       {/* Banner Four */}
-      <BannerFour />
+       <BannerFour />
 
      
       <AboutAreaFive /> 

@@ -6,7 +6,8 @@ const BannerFour = () => {
   return (
     <> 
       <div className='banner-area bg-relative banner-area-3'>
-        <div className='container-fluid  '>
+
+        <div className='container-fluid pt-5 '>
           <div className='bg-gray'>
             <img
               className='img-right img-fluid'
