@@ -130,15 +130,15 @@ const NavbarThree = () => {
                 <Link to=' '>Philosophy</Link>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to=''>Philosophy 1</Link>
+                    <Link to=''>Power of Compounding</Link>
                     {/* <Link to='/about'>About Us</Link> */}
                   </li>
                   <li>
-                    <Link to=''>Philosophy 2</Link>
+                    <Link to=''>Law of average</Link>
                     {/* <Link to='/team'>Team</Link> */}
                   </li>
                   <li>
-                    <Link to=''> Philosophy 3</Link>
+                    <Link to=''> Powerful platform</Link>
                     {/* <Link to='/team-details'>Team Details</Link> */}
                   </li>
                   <li>

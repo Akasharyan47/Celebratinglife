@@ -12,7 +12,7 @@ const FaqAreaTwo = () => {
             <div className='col-lg-5  col-md-6 order-lg-last' >
               <div className='about-thumb-inner video-thumb  d-flex flex-row-reverse h-100 w-100 align-items-center'>
                  <img
-                  className=' h-75'
+                  className='h-75'
                   src='assets/img/about/FQpic.png'
                   alt='img'
                 />  

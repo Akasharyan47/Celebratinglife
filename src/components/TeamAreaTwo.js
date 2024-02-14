@@ -6,8 +6,8 @@ const TeamAreaTwo = () => {
     <>
       {/*====================== team area start ======================*/}
       <div
-        className='team-area bg-relative pd-top-120 pd-bottom-90'
-        style={{ backgroundImage: 'url("./assets/img/bg/12.png")' }}
+        className='team-area bg-relative pd-top-100 pd-bottom-40 bg-info'
+      
       >
         <div className='container'>
           <div className='section-title text-center'>
@@ -23,15 +23,15 @@ const TeamAreaTwo = () => {
             <div className='col-lg-4 col-md-6 '>
               <div className='single-team-inner style-2  text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/11.png' alt='img' />
+                  <img src='assets/img/team/11.jpg' alt='img' />
                 </div>
                 <div className='details '>
-                  <div className='details-inner'>
+                  <div className='details-inner  '>
                     <h5>
                     <Link to=''>Devon Lane</Link>
                     </h5>
                     {/* <p>Merketing Department</p> */}
-                    <ul className='team-social-inner mt-3 mb-1'>
+                    <ul className='team-social-inner  mb-1'>
                       <li>
                         <a href='#'>
                           <FaFacebookF />
@@ -55,7 +55,7 @@ const TeamAreaTwo = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-team-inner style-2 text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/11.png' alt='img' />
+                  <img src='assets/img/team/22.jpg' alt='img' />
                 </div>
                 <div className='details'>
                   <div className='details-inner'>
@@ -63,7 +63,7 @@ const TeamAreaTwo = () => {
                     <Link to=' '>Falcon Lane</Link>
                     </h5>
                     {/* <p>Merketing Department</p> */}
-                    <ul className='team-social-inner mt-3 mb-1'>
+                    <ul className='team-social-inner  mb-1'>
                       <li>
                         <a href='#'>
                           <FaFacebookF />
@@ -87,7 +87,7 @@ const TeamAreaTwo = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-team-inner style-2 text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/11.png' alt='img' />
+                  <img src='assets/img/team/33.jpg' alt='img' />
                 </div>
                 <div className='details'>
                   <div className='details-inner'>
@@ -95,7 +95,7 @@ const TeamAreaTwo = () => {
                     <Link to=' '>Wilson Jac</Link>
                     </h5>
                     {/* <p>Merketing Department</p> */}
-                    <ul className='team-social-inner mt-3 mb-1'>
+                    <ul className='team-social-inner  mb-1'>
                       <li>
                         <a href='#'>
                           <FaFacebookF />
