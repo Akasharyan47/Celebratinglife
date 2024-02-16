@@ -14,13 +14,13 @@ const Contact = () => {
 
       {/* Navigation Bar */}
       <Breadcrumb title={"Contact"} />
-      <Demo />
+      {/* <Demo /> */}
 
       {/* Contact Main */}
-      {/* <ContactMain /> */}
+      <ContactMain />
 
       {/* Footer One */}
-      {/* <FooterOne /> */}
+      <FooterOne />
     </>
   );
 };

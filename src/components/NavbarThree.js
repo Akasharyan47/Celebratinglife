@@ -107,7 +107,7 @@ const NavbarThree = () => {
                     {/* <Link to='/team'>Team</Link> */}
                   </li>
                   <li>
-                    <Link to='/contact'> Powerful platform</Link>
+                    <Link to=' '> Powerful platform</Link>
                     {/* <Link to='/team-details'>Team Details</Link> */}
                   </li>
                   <li>
