@@ -3,14 +3,30 @@
 ----------------------------------------------*/
 .about-thumb-inner {
   position: relative;  
+  width: auto;
+  height: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;  
+  
+@media all and (min-width: 700px) {
+  .imhh{
+    width:400px;
+    height:250px;
+  }
+}
+@media all and (max-width: 700px) {
+  .imhh{
+    width:300px;
+    height:200px;
+  }
+}
   .top_image_bounce {
     z-index: 9;
   } 
   .animate-img-3 {
-    position:  relative;
-    
-  }
-  
+    position:  relative;  
+  } 
   .animate-img-bottom-right {
     position: absolute;
     right: -100px;
@@ -71,10 +87,10 @@
     .accordion-button {
       background: transparent;
       font-size:1rem;
-      padding: 22px 0;
+      padding: 10px 0;
       box-shadow: none;
       color: var(--main-color);
-      font-weight: 600;
+      font-weight: 400;
       &.collapsed {
         color: var(--heading-color); 
       }
@@ -95,32 +111,7 @@
       }
     }
   }
-  &.style-2 {
-    .accordion-item {
-      .accordion-button {
-        &.collapsed {
-          color: var(--heading-color);
-          &:after {
-            content: "+";
-            font-size: 18px;
-          }
-        }
-        &:after {
-          content: "-";
-          background-image: none !important;
-          font-size: 18px;
-          transform: rotate(0);
-          width: 20px;
-          height: 20px;
-          line-height: 17px;
-          background: var(--main-color);
-          color: #fff;
-          text-align: center;
-          border-radius: 6px;
-        }
-      }
-    }
-  }
+ 
   &.style-3 {
     .accordion-item {
       border: 1px solid #e3e3e3;

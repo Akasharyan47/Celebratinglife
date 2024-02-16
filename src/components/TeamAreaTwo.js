@@ -6,7 +6,7 @@ const TeamAreaTwo = () => {
     <>
       {/*====================== team area start ======================*/}
       <div
-        className='team-area bg-relative pd-top-100 pd-bottom-40 '
+        className='team-area bg-relative pd-top-100 pd-bottom-120 '
       
       >
         <div className='container'>

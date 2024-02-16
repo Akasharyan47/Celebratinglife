@@ -26,8 +26,7 @@ const HomeFour = () => {
       
  
       <FaqAreaTwo />
-
-   
+ 
 
       {/* Career Area One */}
       {/* <CareerAreaOne /> */}
@@ -35,10 +34,11 @@ const HomeFour = () => {
       {/* Project Area One */}
       <ProjectAreaOne />
          {/* Team Area Two */}
+         {/* <ContactAreaFour /> */}
          <TeamAreaTwo />
 
       {/* Contact Area Four */}
-      <ContactAreaFour />
+      {/* <ContactAreaFour /> */}
 
       {/* Testimonial Three */}
       <TestimonialThree />

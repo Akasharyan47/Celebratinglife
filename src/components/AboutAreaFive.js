@@ -10,22 +10,22 @@ const AboutAreaFive = () => {
         <div className='container'>
           <div className='row '>
             <div
-              className='col-lg-6 mb-4 mb-lg-0 '
+              className='col-lg-6 bg-success mb-4 mb-lg-0 '
               data-aos='fade-right'
               data-aos-delay='200'
               data-aos-duration='1500'
             >
-              <div className='about-thumb-inner w-75 '>
+              <div className='about-thumb-inner '>
                 {/* <img
                   className='animate-img-3 z-index-2 top_image_bounce'
                   src='assets/img/about/20.png'
                   alt='img'
                 /> */}
-                <img
-                  className='main-img'
+                {/* <img
+                  className='main-img h-75'
                   src='assets/img/about/21.png'
                   alt='img'
-                />
+                /> */}
               </div>
             </div>
             <div

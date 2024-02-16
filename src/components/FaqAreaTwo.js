@@ -6,22 +6,23 @@ const FaqAreaTwo = () => {
   return (
     <>
       {/*==================== Faq area start ====================*/}
-      <div className='faq-area pd-bottom-120' style={{backgroundColor:"#F5F6F7"}}>
+      <div className='faq-area  pt-3 pb-3' style={{backgroundColor:"#F5F6F7"}}>
         <div className='container'>
-          <div className='row'>
-            <div className='col-lg-5  col-md-6 order-lg-last' >
-              <div className='about-thumb-inner video-thumb  d-flex flex-row-reverse h-100 w-100 align-items-center'>
-                 <img
-                  className='h-75'
+          <div className='row align-items-center'>
+
+          <div className='col-md-6 order-lg-last'>
+              <div className='about-thumb-inner  video-thumb p-3 d-flex  '>
+                <img
+                  className='imhh img-fluid'
                   src='assets/img/about/FQpic.png'
                   alt='img'
-                />  
+                />
                 <span
                   onClick={() => setOpen(true)}
                   className='video-play-btn-hover'
                 >
-                  <img src='assets/img/video.svg' alt='img' />{" "}
-                  <h6 className='d-inline-block'>how we work</h6>
+                  <img  className="img-fluid"  src='assets/img/video.svg' alt='img' />
+                  <h6 className='d-inline-block'>How We Work</h6>
                 </span>
                 <ModalVideo
                   channel='youtube'
@@ -33,7 +34,7 @@ const FaqAreaTwo = () => {
               </div>
             </div>
             
-            <div className='col-lg-6 align-self-center'>
+            <div className='col-md-6 col-sx-10  align-self-center bg success'>
               <div className='section-title mb-0 mt-4 mt-lg-0'>
                 <h6 className='sub-title'>YOUR ANSWER</h6>
                 <h2 className='title'>
@@ -170,7 +171,7 @@ const FaqAreaTwo = () => {
                 </div>
               </div>
             </div>
-            <div className='col-lg-1'></div>
+            
           </div>
         </div>
       </div>
