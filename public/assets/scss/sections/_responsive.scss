@@ -233,6 +233,9 @@
   .breadcrumb-area .page-title {
     font-size: 50px;
   }
+  .bannerI{
+    height: 35vh;
+  }
   .banner-area-3 .img-right {
     display: none;
   }
@@ -281,13 +284,15 @@
     padding: 25px;
   }
   .banner-inner .title {
-    font-size: 40px;
+    font-size: 2rem;
+
   }
   .banner-inner .subtitle {
-    font-size: 13px;
+    font-size: 0.4rem;
   }
+  
   .section-title .title {
-    font-size: 32px;
+    font-size: 1.5rem;
   }
   .about-thumb-inner .animate-img-bottom-right {
     position: absolute;
@@ -317,7 +322,7 @@
     left: -8px;
   }
   .contact-inner-1 .section-title .title {
-    font-size: 32px;
+    font-size: 1.5rem;
   }
   .footer-subscribe .footer-subscribe-inner input {
     padding: 0 20px;
@@ -392,7 +397,7 @@
 @media all and (max-width: 360px) {
   .contact-inner-1 .section-title .title,
   .section-title .title {
-    font-size: 30px;
+    font-size: 1.5rem;
   }
   .single-case-study-inner .details {
     padding: 18px 60px 18px 18px;

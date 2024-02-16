@@ -1,14 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
-import { FaPlus } from "react-icons/fa";
-import { Link } from "react-router-dom";
-//  url: require("../Image/bannerImage/1.jpg"),
+import 'react-slideshow-image/dist/styles.css';
 
-const BannerFour = () => {
- 
+const Slideshow = () => {
+  const spanStyle = {
+    padding: '20px',
+    background: '#efefef',
+    color: '#000000',
+    width: '100%',
+    display: 'block',
+    textAlign: 'center'
+  };
+
   const userimgUrl = 'https://source.unsplash.com/random/1920x1080';
-  const parentimgUrl = 'https://source.unsplash.com/random/1920x1080';
+  const parentimgUrl = 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80';
 
   const [combinedImageUrl, setCombinedImageUrl] = useState('');
   const [loading, setLoading] = useState(true);
@@ -42,7 +47,8 @@ const BannerFour = () => {
     };
 
     combineImages();
- 
+
+    // Clean up object URLs to avoid memory leaks
     return () => {
       URL.revokeObjectURL(combinedImageUrl);
     };
@@ -65,7 +71,7 @@ const BannerFour = () => {
       layout: '100%'
     },
     {
-      url: 'https://source.unsplash.com/random/1920x1080',
+      url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
       caption: 'Slide 2',
       layout: '100%'
     },
@@ -81,76 +87,28 @@ const BannerFour = () => {
     }
   ];
 
-
   return (
-    <>  
-      <div className=' bg-relative'> 
-      <div className='' style={{height:"75px"}}> </div>
-        <div className='container-fluid  m-0 p-0 '>
-          <div className='bg-gray'>
-          <div className="slide-container bg-success">
+    <div className="slide-container">
         
-        <Slide>
-          {slideImages.map((slideImage, index) => (
-            <div key={index}>
-              <div className='bannerI' style={{
-                backgroundImage: `url(${slideImage.url})`,
-                backgroundSize: 'cover',
-               
-                width: slideImage.layout,
-                display: 'inline-block'
-              }}>
-                
-              <div className='container'>
-              <div className='row'>
-                <div className='col-lg-7 align-self-center'>
-                  <div className='banner-inner pt-5 '>
-                    <h6
-                      className='subtitle'
-                      data-aos='fade-right'
-                      data-aos-delay='100'
-                      data-aos-duration='1500'
-                    > 
-                      INDIA'S LEADING DIRECT SELLING COMPANIES
-                    </h6>
-                    <h2
-                      className='title '
-                      data-aos='fade-right'
-                      data-aos-delay='250'
-                      data-aos-duration='1500'
-                    >
-                     Welcome to the world <span> financial </span> freedom
-                    </h2>
-                    <Link
-                      className='mt-3 btn btn-border-basee  '
-                      data-aos='fade-right'
-                      data-aos-delay='400'
-                      data-aos-duration='1500'
-                      to=' '
-                      
-                    >
-                      Register <FaPlus />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>    
-              </div>
+      <Slide>
+        {slideImages.map((slideImage, index) => (
+          <div key={index}>
+            <div style={{
+              backgroundImage: `url(${slideImage.url})`,
+              backgroundSize: 'cover',
+              height: '400px',
+              width: slideImage.layout,
+              display: 'inline-block'
+            }}>
+               <span style={{ ...spanStyle, position: 'absolute',    left: 0, width: '100%' }}>{slideImage.caption}</span>
+              {/* Add your button here */}
+              <button style={{ position: 'absolute', bottom: '50%', left: '50%', transform: 'translate(-50%, 50%)' }}>Button</button>
             </div>
-          ))}
-        </Slide>
-      </div>
-
-             
-      
           </div>
-        </div>
-        
-      </div>
-
-      {/* ================== BannerFour End ==================*/}
-    </>
+        ))}
+      </Slide>
+    </div>
   );
 };
 
-export default BannerFour;
+export default Slideshow;

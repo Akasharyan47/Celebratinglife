@@ -6,13 +6,13 @@ const TeamAreaTwo = () => {
     <>
       {/*====================== team area start ======================*/}
       <div
-        className='team-area bg-relative pd-top-100 pd-bottom-40 bg-info'
+        className='team-area bg-relative pd-top-100 pd-bottom-40 '
       
       >
         <div className='container'>
           <div className='section-title text-center'>
             <h6 className='sub-title'>MEET OUR EXPERTS</h6>
-            <h2 className='title text-white'>
+            <h2 className='title  '>
               Your Partner In <span>Digital</span> Success
             </h2>
           </div>

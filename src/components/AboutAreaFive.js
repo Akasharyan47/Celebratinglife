@@ -64,12 +64,12 @@ const AboutAreaFive = () => {
                     </ul>
                   </div>
                 </div>
-                <Link
+                {/* <Link
                   className='btn btn-base-color border-radius-5'
                   to=''
                 >
                   Discover More <FaArrowRight />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

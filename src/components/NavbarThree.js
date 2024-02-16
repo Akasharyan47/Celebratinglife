@@ -1,17 +1,13 @@
 import React, { useState } from "react";
-import { FaPlus, FaSearch } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const NavbarThree = () => {
-  const [active, setActive] = useState(false);
-  const [searchShow, setSearchShow] = useState(false);
+  const [active, setActive] = useState(false); 
   const menuActive = () => {
     setActive(!active);
   };
-  const searchActive = () => {
-    setSearchShow(!searchShow);
-    console.log("hell");
-  };
+  
 
   // Control sidebar navigation
   let items = document.querySelectorAll(".menu-item-has-children > a");
@@ -27,30 +23,7 @@ const NavbarThree = () => {
   }
   return (
     <>
-      {/* search popup start*/}
-      {/* <div
-        className={searchShow ? "td-search-popup active" : "td-search-popup "}
-        id='td-search-popup'
-      >
-        <form action='/' className='search-form'>
-          <div className='form-group'>
-            <input
-              type='text'
-              className='form-control'
-              placeholder='Search.....'
-            />
-          </div>
-          <button type='submit' className='submit-btn'>
-            <FaSearch />
-          </button>
-        </form>
-      </div> */}
-      {/* search popup end*/}
-      {/* <div
-        onClick={searchActive}
-        className={searchShow ? "body-overlay active" : "body-overlay"}
-        id='body-overlay'
-      ></div> */}
+    
       {/* ==================== Navbar Two Start ====================*/}
       <nav className='navbar navbar-area navbar-area-2 navbar-expand-lg '>
         <div className='container-fluid nav-container  '>
@@ -80,11 +53,7 @@ const NavbarThree = () => {
                
             </Link>
           </div>
-          <div className='nav-right-part nav-right-part-mobile'>
-            <span className='search-bar-btn' onClick={searchActive}>
-              <FaSearch />
-            </span>
-          </div>
+          
           <div
             className={
               active
@@ -138,7 +107,7 @@ const NavbarThree = () => {
                     {/* <Link to='/team'>Team</Link> */}
                   </li>
                   <li>
-                    <Link to=''> Powerful platform</Link>
+                    <Link to='/contact'> Powerful platform</Link>
                     {/* <Link to='/team-details'>Team Details</Link> */}
                   </li>
                   <li>

@@ -18,32 +18,36 @@
     cursor: pointer;
   }
 }
-.banner-area-3 {
-  margin-top: 0;
-  .bg-gray {
-    padding: 140px 0;
-    position: relative;
-  }
-  .img-right {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 55%;
-    bottom: 0;
-    height: 100%;
-    z-index: 1;
-  }
-  &:after {
-    content: "";
-    position: absolute;
-    right: 40%;
-    top: 0;
-    width: 20%;
-    height: 100%;
-    background-image: linear-gradient(to right, #f8f9fc 50%, transparent);
-    z-index: 2;
-  }
+.bannerI{
+  height:50vh;
 }
+
+// .banner-area-3 {
+//   margin-top: 0; 
+//   .bg-gray {
+//     padding: 140px 0;
+//     position: relative;
+//   }
+//   // .img-right {
+//   //   position: absolute;
+//   //   right: 0;
+//   //   top: 0;
+//   //   width: 55%;
+//   //   bottom: 0;
+//   //   height: 100%;
+//   //   z-index: 1;
+//   // }
+//   // &:after {
+//   //   content: "";
+//   //   position: absolute;
+//   //   right: 40%;
+//   //   top: 0;
+//   //   width: 20%;
+//   //   height: 100%;
+//   //   background-image: linear-gradient(to right, #f8f9fc 50%, transparent);
+//   //   z-index: 2;
+//   // }
+// }
 
 .navbar-area-2 {
   .nav-right-part {
@@ -84,10 +88,13 @@
     font-size: 2.7rem;
     // margin-bottom: 20px;
     font-weight: 700;
+      // color: #f8f9fc;
+    color: whitesmoke;
     span {
-      color: var(--main-color);
+      color: #fd3498;
     }
-  }
+ 
+  } 
   .content {
     margin-bottom: 32px;
   }
