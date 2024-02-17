@@ -4,6 +4,7 @@ import 'react-slideshow-image/dist/styles.css'
 import { FaPlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
 //  url: require("../Image/bannerImage/1.jpg"),
+import Pink from "../Image/bannerImage/img1.jpg";
 
 const BannerFour = () => {
  
@@ -48,6 +49,7 @@ const BannerFour = () => {
     };
   }, []);
 
+  console.log(Pink)
   // Helper function to create image objects
   const createImage = (url) => {
     return new Promise((resolve, reject) => {
@@ -65,7 +67,7 @@ const BannerFour = () => {
       layout: '100%'
     },
     {
-      url: '../Image/bannerImage/img3.jpg',
+      url: 'https://source.unsplash.com/random/1920x1080',
       caption: 'Slide 2',
       layout: '100%'
     },
