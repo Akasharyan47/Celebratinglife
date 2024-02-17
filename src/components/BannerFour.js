@@ -65,7 +65,7 @@ const BannerFour = () => {
       layout: '100%'
     },
     {
-      url: 'https://source.unsplash.com/random/1920x1080',
+      url: '../Image/bannerImage/img3.jpg',
       caption: 'Slide 2',
       layout: '100%'
     },
