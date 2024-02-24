@@ -71,30 +71,22 @@ const BannerFour = () => {
       layout: "100%",
     },
     {
-      url: Img1,
+      url:"https://source.unsplash.com/random/1920x1080",
       caption: "Slide 2",
       layout: "100%",
     },
     {
-      url: Img2,
+      url: "https://source.unsplash.com/random/1920x1080",
       caption: "Slide 3",
       layout: "100%",
     },
-    {
-      url: Img3,
-      caption: "Slide 4",
-      layout: "100%",
-    },
-    {
-      url: Img4,
-      caption: "Slide 5",
-      layout: "100%",
-    },
+
+ 
   ];
 
   return (
     <>
-      <div className=" bg-relative">
+      <div className="bg-relative">
         <div className="" style={{ height: "75px" }}>
           {" "}
         </div>

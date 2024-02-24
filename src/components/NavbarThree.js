@@ -99,15 +99,15 @@ const NavbarThree = () => {
                 <Link to=' '>plan presentation </Link>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to=''>Power of Compounding</Link>
+                    <Link to='/Why'>Why</Link>
                     {/* <Link to='/about'>About Us</Link> */}
                   </li>
                   <li>
-                    <Link to=''>Law of average</Link>
+                    <Link to='/GuidingPhilosophy'>Guiding philosophy </Link>
                     {/* <Link to='/team'>Team</Link> */}
                   </li>
                   <li>
-                    <Link to=' '> Powerful platform</Link>
+                    <Link to='/ModiCommunity'> ModiCommunity</Link>
                     {/* <Link to='/team-details'>Team Details</Link> */}
                   </li>
                   <li>

@@ -13,6 +13,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import ScrollToTop from "react-scroll-to-top"; 
+import GuidingPhilosophy from "./pages/GuidingPhilosophy"
+import Why from "./pages/Why";
+import ModiCommunity from "./pages/ModiCommunity"
 function App() {
   useEffect(() => {
     AOS.init({
@@ -43,6 +46,10 @@ function App() {
         <Route exact path='/service-details' element={<ServiceDetails />} />
         <Route exact path='/team' element={<Team />} />
         <Route exact path='/team-details' element={<TeamDetails />} />
+        <Route exact path='/GuidingPhilosophy' element={<GuidingPhilosophy />} />
+        <Route exact path="/Why" element={<Why />} />
+        <Route exact path="/ModiCommunity" element={<ModiCommunity />} />
+
       </Routes>
       <ScrollToTop smooth color='#246BFD' />
     </BrowserRouter>
