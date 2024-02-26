@@ -96,7 +96,7 @@ const NavbarThree = () => {
               </li> */}
               <li className='menu-item-has-children'>
                 {/* <a href='#'>Pages</a> */}
-                <Link to=' '>plan presentation </Link>
+                <Link to=' '>plan</Link>
                 <ul className='sub-menu'>
                   <li>
                     <Link to='/Why'>Why</Link>
@@ -115,12 +115,12 @@ const NavbarThree = () => {
                   </li>
                 </ul>
               </li>
-
+ 
               
               <li className='menu-item-has-children'>
-              <Link to=' '>shopping</Link>
-                 
+                   <Link to=' '>shopping</Link>
               </li>
+
               <li>
                 <Link to=' '>Start your Business</Link>
               </li>
@@ -139,7 +139,7 @@ const NavbarThree = () => {
               {/* <span>Need help?</span>
               <h5>(808) 555-0111</h5> 
             </a>*/}
-            <Link className='btn btn-border-base  ' to=' '>
+            <Link className='btn btn-border-base' to=''>
                Register <FaPlus  />
             </Link>
           </div>

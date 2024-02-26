@@ -54,22 +54,22 @@ const FooterThree = () => {
                 <h4 className='widget-title'>Our Service</h4>
                 <ul>
                   <li>
-                    <Link to='/service'>
+                    <Link to='/'>
                       <FaChevronRight /> Digital Marketing
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='/'>
                       <FaChevronRight /> Our Story
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='/'>
                       <FaChevronRight /> The Visionary
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
+                    <Link to='/'>
                       <FaChevronRight /> Modi Enterprise
                     </Link>
                   </li>
